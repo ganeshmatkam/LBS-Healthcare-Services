@@ -2,6 +2,9 @@
 Ionic-leaflet project to find medical facilities around user in dehradun
 
 ## Installation
+
+Hi Meena! Please follow these instructions for a successful build. Happy Coding..! :) 
+
 - Install git software form here 'https://git-scm.com/downloads' if it is not installed
 - Open Terminal and run 'git clone https://github.com/ganeshmatkam/LBS-Healthcare-Services.git LBS-Healthcare-Services'
 - Run 'cd LBS-Healthcare-Services' to go into the project
