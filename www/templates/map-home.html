@@ -1,0 +1,31 @@
+<ion-view view-title="LBS Healthcare Services">
+  <ion-nav-bar class="bar-positive">
+    <ion-nav-back-button></ion-nav-back-button>
+  </ion-nav-bar>
+  <ion-content>
+    <!-- creates map -->
+    <leaflet center="center" markers="markers" maxbounds="maxbounds" tiles="tiles" defaults="defaults" style="height: 400px;width: 100%;"></leaflet>
+
+<ul class="list">
+  <!-- for toggle buttons -->
+  <li class="item item-toggle positive " ng-click="showAll()">
+    Locate all medical facilites
+    <label class="toggle toggle-positive">
+          <input type="checkbox" ng-model="locate.all">
+          <div class="track">
+            <div class="handle"></div>
+          </div>
+        </label>
+  </li>
+  <li class="item item-toggle positive" ng-click="setCurrentLocation()">
+    Locate near by medical facilites
+    <label class="toggle toggle-positive">
+          <input type="checkbox" ng-model="locate.near">
+          <div class="track">
+            <div class="handle"></div>
+          </div>
+        </label>
+  </li>
+</ul>
+</ion-content>
+</ion-view>
